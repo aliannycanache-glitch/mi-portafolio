@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio | Alianny G Canache J</title>
+  <meta name="description" content="Desarrollador Backend y habilidades en Frontend iniciada en Python y HTML con frameworks. Portafolio de proyectos y servicios." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="logo" href="#">Alianny</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menú</button>
+      <ul id="menu" class="menu">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-label="Presentación">
+      <div class="hero-content">
+        <div class="hero-media">
+          <img src="assets/foto-alianny.jpg" alt="Foto de Alianny G Canache J" />
+        </div>
+        <div class="hero-text">
+          <h1>Alianny G Canache J</h1>
+          <p>Soy desarrollador Backen con amplias habilidades en <strong>Frontend</strong> manejando <strong>Python</strong> y <strong>HTML</strong> asi como <strong>frameworks</strong> asociados. Me adapto rápido a los trabajos propuestos y disfruto los desafíos en los lenguajes que manejo.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">Ver proyectos</a>
+            <a class="btn outline" href="#contact">Contactar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="about" class="section">
+      <h2>Sobre mí</h2>
+      <p>Desarrollo soluciones digitales accesibles, migrando procesos manuales y aplicaciones existentes a interfaces claras y responsivas.</p>
+      <p> Me enfoco en proyectos comunitarios y académicos, priorizando la usabilidad para personas mayores y contextos vulnerables con Diseño unico y llamativo.</p>
+      <ul class="tags">
+        <li>Python</li>
+        <li>HTML + frameworks</li>
+        <li>Accesibilidad</li>
+        <li>UI clara</li>
+        <li>Documentación</li>
+      </ul>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects" class="section">
+      <h2>Proyectos destacados</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="assets/proyecto-1.jpg" alt="Pantalla de aplicación de gestión comunitaria" />
+          <div class="card-body">
+            <h3>Gestión comunitaria</h3>
+            <p>Aplicación en Python y SQLite para registro de beneficiarios y reportes básicos.</p>
+            <ul class="meta">
+              <li><strong>Rol:</strong> Desarrollo completo</li>
+              <li><strong>Tech:</strong> Python, SQLite, HTML</li>
+              <li><strong>Estado:</strong> En producción</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn secondary" href="#" target="_blank" rel="noopener">Demo</a>
+            </div>
+          </div>
+        </article>
+
+
+        <article class="card">
+          <img src="assets/proyecto-2.jpg" alt="Interfaz de recordatorio de medicación" />
+          <div class="card-body">
+            <h3>Recordatorio de medicación</h3>
+            <p>PWA en HTML/JS enfocada en adultos mayores, con notificaciones y modo offline.</p>
+            <ul class="meta">
+              <li><strong>Rol:</strong> Frontend</li>
+              <li><strong>Tech:</strong> HTML, JS, Service Worker</li>
+              <li><strong>Estado:</strong> Beta</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn secondary" href="#" target="_blank" rel="noopener">Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services" class="section">
+      <h2>Servicios</h2>
+      <div class="grid two">
+        <div class="service">
+          <h3>Migración a web accesible</h3>
+          <p>Transformo procesos manuales y apps en soluciones HTML/CSS/JS con legibilidad, buen contraste y soporte básico offline.</p>
+        </div>
+        <div class="service">
+          <h3>Interfaces y recursos visuales</h3>
+          <p>Diseño UI clara y documentos visuales (infografías, tablas, presentaciones) para proyectos comunitarios y académicos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section">
+      <h2>Contacto</h2>
+      <p>¿Quieres colaborar conmigo? Escríbeme</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:aliannycanache@gmail.com">aliannycanache@gmail.com</a></li>
+      </ul>
+      <form class="contact-form" aria-label="Formulario de contacto" action="mailto:aliannycanache@gmail.com" method="post" enctype="text/plain">
+        <div class="form-field">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-field">
+          <label for="email">Correo</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="form-field">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button class="btn primary" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>© 2025 Alianny G Canache J · Desarrollador de Backend habilidades en Frontend</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
